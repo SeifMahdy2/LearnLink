@@ -1,0 +1,23 @@
+.avatar-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.avatar-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, border 0.2s;
+}
+
+.avatar-option:hover {
+  transform: scale(1.1);
+}
+
+.avatar-option.selected {
+  border: 3px solid #ff7eb3;
+  transform: scale(1.2);
+}

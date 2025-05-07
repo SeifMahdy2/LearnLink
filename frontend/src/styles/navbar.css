@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #222;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
+  .popup-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .popup-menu p {
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .popup-menu p:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Override theme switch styles for navbar */
+  .navbar .theme-switch {
+    position: static;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
